@@ -89,6 +89,4 @@ test:
 #
 production:
   <<: *default
-  database: inventory_api_production
-  username: inventory_api
-  password: <%= ENV["INVENTORY_API_DATABASE_PASSWORD"] %>
+  url: <%= ENV["DATABASE_URL"] %>
