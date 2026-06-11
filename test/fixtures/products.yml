@@ -1,15 +1,17 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  sku: MyString
   name: MyString
-  description: MyText
-  purchase_price: 9.99
-  selling_price: 9.99
+  sku: MyString
+  stock: 1
+  price: 9.99
+  min_stock: 1
+  warehouse: one
 
 two:
-  sku: MyString
   name: MyString
-  description: MyText
-  purchase_price: 9.99
-  selling_price: 9.99
+  sku: MyString
+  stock: 1
+  price: 9.99
+  min_stock: 1
+  warehouse: two
