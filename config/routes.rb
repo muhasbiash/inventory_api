@@ -15,8 +15,7 @@ Rails.application.routes.draw do
 
       resources :categories
       resources :warehouses
-      resources :stock_ins
-      resources :stock_outs
+      resources :stock_movements
       resources :notifications
 
     end
